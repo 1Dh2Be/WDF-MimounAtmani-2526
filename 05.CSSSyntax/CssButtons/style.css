@@ -1,0 +1,76 @@
+body {
+  display: inline-block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  font-weight: 500;
+}
+
+.button_groen a {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #a7c44d;
+  padding: 1em;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.button_groen a::after {
+  content: "→";
+  margin-left: 20px;
+}
+
+.button_groen a:hover {
+  color: #3f3f3f;
+}
+
+.button_favoriet a {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  width: 40px;
+  text-align: center;
+  border-radius: 100%;
+  background-color: #dcd1bc;
+  cursor: pointer;
+  color: #801005;
+}
+
+.button_favoriet a:hover {
+  color: #d7230d;
+  transform: scale(105%);
+}
+
+.button_tiktok a {
+  position: relative;
+  padding: 1em 2em;
+  padding-left: 4em;
+  background: #eeeeee;
+  color: #848484;
+}
+
+.button_tiktok a::before {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  content: "";
+  background-image: url("img/logo-tiktok.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+
+.button_tiktok a:hover {
+  text-decoration: underline;
+}
