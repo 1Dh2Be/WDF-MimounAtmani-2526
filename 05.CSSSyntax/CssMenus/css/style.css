@@ -1,0 +1,53 @@
+/* Horizontale list hier onder */
+#menu-hor-green {
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style: none;
+  padding: 1em;
+  background: #abdb4c;
+}
+
+#menu-hor-green li a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  text-underline-offset: 10px;
+  color: #444;
+}
+
+#menu-hor-green li a:hover,
+#menu-hor-green .active a {
+  text-decoration: underline;
+}
+
+/* Verticale list hier onder */
+#menu-social-vert {
+  border: 1px solid #b2b2b2;
+  border-radius: 3px;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  width: 60px;
+}
+
+#menu-social-vert li + li {
+  border-top: 1px solid #b2b2b2;
+}
+
+#menu-social-vert li a {
+  text-decoration: none;
+}
+
+#menu-social-vert span {
+  display: inline-block;
+  color: #99c63f;
+  font-size: 2em;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+}
+
+#menu-social-vert .active a,
+#menu-social-vert span:hover {
+  color: #abdb4c;
+}
