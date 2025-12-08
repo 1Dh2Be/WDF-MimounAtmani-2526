@@ -1,0 +1,154 @@
+/**
+ *
+ * Common styles
+ *
+ * @author !Mimoun!
+ *
+ */
+
+/* ===========================================
+   General
+   =========================================== */
+
+/* html, body and general element styles here */
+
+html {
+  background-color: #dfdfdf;
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+body {
+  background-color: #fff;
+  border-radius: 8px 8px 0 0;
+}
+
+p {
+  font-weight: 350;
+}
+
+h3 {
+  font-size: 1.4em;
+  color: #b52025;
+  font-weight: 350;
+  text-transform: uppercase;
+}
+
+h3::after {
+  content: "→";
+  padding-left: 5px;
+}
+
+/* ===========================================
+   Menu
+   =========================================== */
+
+/* menu styles here */
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 0.5em;
+}
+
+.active {
+  background-color: #b52025;
+  color: #fff;
+}
+
+li a {
+  padding: 0.7em;
+  text-decoration: none;
+  color: #000;
+  transition: all 300ms;
+}
+
+li a:hover {
+  background-color: #b52025;
+  color: #fff;
+}
+
+/* ===========================================
+   Banner
+   =========================================== */
+
+/* banner styles here */
+
+#banner {
+  background-image: url(../img/banner.jpg);
+  border: 6px solid #b52025;
+  box-shadow: 1px 10px 10px rgb(94 94 94);
+}
+
+#banner p {
+  color: #fff;
+  background-color: rgb(0 0 0 / 70%);
+}
+
+/* ===========================================
+   Main
+   =========================================== */
+
+/* main styles here */
+
+.minibanner {
+  border: 1px solid gray;
+}
+
+section ul {
+  display: flex;
+  flex-flow: column;
+}
+
+section ul li {
+  list-style: disc;
+  font-weight: 300;
+}
+
+.more {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.more a {
+  padding: 0.5em;
+  border: 1px solid #b52025;
+  border-radius: 5px;
+  font-weight: 500;
+  color: #b52025;
+  text-decoration: none;
+  transition: all 300ms;
+}
+
+.more a:hover {
+  background-color: rgb(181 32 37 / 20%);
+  text-decoration: underline;
+}
+
+.more a::after {
+  content: " »";
+}
+
+#email {
+  background: rgb(181 32 37 / 20%);
+}
+
+button {
+  background-color: #b52025;
+  color: #fff;
+}
+
+/* ===========================================
+   Footer
+   =========================================== */
+
+/* footer styles here */
+
+footer {
+  display: flex;
+  justify-content: center;
+  border-top: 1px dashed gray;
+  background: linear-gradient(to bottom, #ddd, transparent);
+}
