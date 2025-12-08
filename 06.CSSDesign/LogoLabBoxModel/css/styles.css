@@ -1,0 +1,69 @@
+/* HEADER STYLES */
+
+nav ul li {
+  margin-right: 1.5em;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+#topbar a {
+  padding: 0.7em;
+}
+
+/* MAIN STYLES */
+
+/* SECTION */
+
+main {
+  padding: 2em 0;
+  border-bottom: 1px solid gray;
+}
+
+h2 {
+  margin-bottom: 0.5em;
+}
+
+.logo_visual img {
+  border: 10px solid #fff;
+}
+
+.logo p {
+  margin: 0.5em 0;
+}
+
+.button {
+  margin-top: 1.5em;
+  padding: 0.7em;
+}
+
+/* ASIDE */
+
+#bestelnu {
+  margin: 1em 0;
+}
+
+#social li {
+  padding: 10px 10px 10px 90px;
+  margin-bottom: 10px;
+}
+
+#social a {
+  padding-left: 0;
+}
+
+/* FOOTER */
+
+footer {
+  margin: 3em 0;
+}
+
+section h3 {
+  margin-bottom: 1em;
+}
+
+footer ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid gray;
+}
