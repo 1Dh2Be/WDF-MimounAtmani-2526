@@ -1,0 +1,76 @@
+/**
+ * Oplossing voor Desert Tourism oefening
+ */
+
+/* A. Inhoud maximum breedte geven en centreren */
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* B.Horizontaal menu */
+
+nav ul {
+  display: flex;
+  gap: 30px;
+}
+
+/* C.Header layout */
+
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* D. Main kolommen */
+
+main {
+  display: flex;
+  gap: 5%;
+}
+
+.left {
+  flex: 2;
+}
+
+.right {
+  flex: 1;
+}
+
+/* E. Tekst uitlijnen en afbeeldingen floaten */
+
+.left img {
+  margin-right: 10px;
+  float: left;
+}
+
+.right img {
+  float: right;
+}
+
+.readmore {
+  text-align: right;
+}
+
+/* F. Deurmat */
+
+#doormat .wrapper {
+  display: flex;
+}
+
+#doormat .wrapper .doormat_col:first-child {
+  flex: 2;
+}
+
+#doormat .wrapper .doormat_col {
+  flex: 1;
+}
+
+/* G. Footer */
+
+footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
