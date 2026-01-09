@@ -1,0 +1,41 @@
+/**
+ * Main styles
+ *
+ * @author Rogier van der Linde <rogier.vanderlinde@odisee.be>
+ *
+ */
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  gap: 40px;
+  background-color: #fff;
+  padding: 20px 30px;
+  padding-bottom: 50px;
+}
+
+main p {
+  color: #666;
+  line-height: 20px;
+}
+
+#gallery {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(130px, 1fr));
+  gap: 7px;
+}
+
+#p-reservewall {
+  text-align: end;
+}
+
+.featured_service img {
+  width: 100px;
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+.readmore {
+  display: block;
+  margin-top: 10px;
+}

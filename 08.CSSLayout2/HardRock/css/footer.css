@@ -1,0 +1,29 @@
+/**
+ * Footer styles
+ *
+ * @author Rogier van der Linde <rogier.vanderlinde@odisee.be>
+ *
+ */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-top: 2px solid #ebeceb;
+  color: #666;
+  font-size: 11px;
+  padding: 20px 30px;
+}
+
+footer > div a {
+  color: #666;
+  font-size: 11px;
+  text-decoration: underline;
+}
+
+#social_icons {
+  display: flex;
+  gap: 35px;
+  list-style: none;
+}
