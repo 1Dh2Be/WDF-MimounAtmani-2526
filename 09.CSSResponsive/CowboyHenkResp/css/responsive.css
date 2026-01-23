@@ -1,0 +1,47 @@
+/* ===========================================
+   Media queries
+   =========================================== */
+
+@media (width >= 500px) {
+  body {
+    font-size: 14px;
+  }
+
+  .post .comments {
+    font-weight: bold;
+    display: block;
+  }
+
+  .post .footer {
+    justify-content: space-between;
+  }
+}
+
+@media (width >= 700px) {
+  body > footer {
+    align-items: center;
+    background-color: #666;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 1em;
+  }
+
+  body > footer h2 {
+    text-align: right;
+  }
+
+  body > footer .buttons {
+    margin-bottom: 0;
+  }
+}
+
+@media (width >= 900px) {
+  nav ul {
+    flex-direction: row;
+  }
+
+  main {
+    grid-template-columns: 2fr 1fr;
+  }
+}

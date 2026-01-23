@@ -1,0 +1,10 @@
+@import "css/general.css";
+@import "css/header.css";
+@import "css/nav.css";
+@import "css/main.css";
+@import "css/footer.css";
+
+body {
+  width: 1200px;
+  margin: 0 auto;
+}
